@@ -64,7 +64,8 @@ header{
 #nav-links{
     
     padding:5px 10px;
-    background-color: aqua;
+    background-color: #095d53;
+    box-shadow: inset;
     margin: 2px;
     border-radius: 50px;
     cursor: pointer;
@@ -103,6 +104,7 @@ body{
     background-color: #2a6f4e;
     border: 20px outset #5a6733;
     font-size: 20px;
+    color: white;
     
 
 }
@@ -118,7 +120,10 @@ body{
     margin: 20px;
     border-radius: 50px;
 }
-
+a{
+    text-decoration: none;
+    color: white;
+}
 @media only screen 
 and (min-device-width : 0px) 
 and (max-device-width : 780px) {
