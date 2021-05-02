@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <main>
+  <header id="header">
+      
+    <div id="img-container">
+        <img src="./images/logo.jpg" id="header-img">
+    </div>
+
+    <nav id="nav-bar">
+        <div class="nav-link" id="nav-links"><a href="#servOfrecidos">Servicios</a></div>
+        <div class="nav-link" id="nav-links"><a href="#testType">Video</a></div>
+        <div class="nav-link" id="nav-links"><a href="#offerAndPrices">Precios</a></div>
+    </nav>
+
+</header>
+
+<section id="email-form">
+      <form action="https://www.freecodecamp.com/email-submit" name="formulario" onSubmit="return false" id="form">
+      <label for="email">Recibe mas informacion a tu correo</label>
+      <br><br>
+      <input type="email" id="email" placeholder="Ingresa tu email" required>
+      <br>
+      <br>
+      <button type="submit" id="submit">Enviar</button>
+      <br>
+    </form>
+    </section>
+    
+    <section id="servOfrecidos">
+    <div id="containerServices">
+        <div class="" id="Services"><h2>Prueba de Antigeno para covid 19</h2>
+            <p id="text-description">Detecta las proteínas del virus y nos dice 
+                si estamos positivos o no, es hisopado nasofaringeo</p>
+            </div>
+        <div class="" id="Services"><h2>Prueba de PCR para covid 19</h2>
+            <p id="text-description"></p>Es la prueba molecular para detectar el covid 19 ,
+            esta mide la genética del virus
+        </div>
+        <div class="" id="Services"><h2>Prueba de anticuerpos para covid 19</h2>
+            <p id="text-description">Es en sangre y es para saber su ya tuvimos covid 19
+                y ya tenemos anticuerpos</p>
+        </div>
+    </div>
+</section>
+
+<section id="testType">
+  <video id="media" controls src="./images/media.mp4"></video>
+  <br>
+  
+</section>
+
+
+
+<section id="offerAndPrices">
+        <div class="test" id="tests"><h3 class="titleTest">Prueba anticuerpos</h3>
+            <p class="precio">$ 50.000 </p>
+            <p>Se necesita una <br> muestra de sangre.</p>
+            <p>La prueba puede <br> detectar uno o más tipos <br> de anticuerpos
+                 para <br> SARS-CoV-2, el virus <br>que ocasiona  la <br>COVID-19.</p>
+                 <div id="toBuy">Comprar</div>
+        </div>
+        <div class="test" id="tests"><h3 class="titleTest">Prueba de Antigeno</h3>
+            <p class="precio">$ 100.000 </p>
+            <p>Muestra nasofaríngea</p>
+            <p>Para saber si estoy<br> infectado</p>
+            <p>Sensibilidad 100% de 0-3<br> días, 90% de 4-7 días</p>
+            <div id="toBuy">Comprar</div>
+        </div>
+        <div class="test" id="tests"><h3 class="titleTest">PCR</h3> 
+            <p class="precio">$ 220.000 </p>
+            <p>Muestra nasofaríngea</p>
+            <p>Para saber si estoy <br>infectado actualmente</p>
+            <p>Sensibilidad muy alta<br> durante la fase de infección</p>
+            <div id="toBuy">Comprar</div>
+        </div>
+</section>
+    
+
+</main>    
+</body>
+</html>

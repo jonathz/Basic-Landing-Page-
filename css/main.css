@@ -1,0 +1,141 @@
+#header-img{
+    
+    width: 15vw;
+    height: 75px;
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
+    
+}
+#email-form{
+    background-color: #436677;
+    display: flex;
+    align-items : center;
+    flex-direction: column;
+    margin: 20px;
+    margin-top: 100px;
+    border-radius: 50px;
+    font-size: xx-large;
+      
+}
+#email{
+    width: 50vw;
+    text-align: center;
+    height: 30px;
+}
+#form{
+    /* background-color: #797979; */
+    color: white;
+    padding: 60px;
+    text-align: center;
+}
+#toBuy{
+    background-color: #494a4a;
+    width: 130px;
+    color: white;
+    border: 7px inset #5d1616;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    cursor: pointer;
+}
+#toBuy:hover{
+    
+    background-color: #202020;
+}
+#nav-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nav-links{
+    
+    padding:5px 10px;
+    background-color: aqua;
+    margin: 2px;
+    border-radius: 50px;
+    cursor: pointer;
+    
+}
+
+#media {
+    height: 50vw;
+    padding: 30px;
+    background-color: turquoise;
+}
+#testType{
+    display: flex;
+    justify-content: center;
+    /* background-color: #9eddff; */
+    
+}
+#servOfrecidos,.test{
+    display: flex;
+    align-items : center;
+    flex-direction: column;
+    padding: 30px;
+    text-align: center;
+    font-size: 24px;
+}
+header{
+    background-color: white;
+}
+body{
+    background-color: #145475;
+}
+.test{
+    background-color: burlywood ;
+    border: 1px solid red;
+    padding: 20px;
+    background-color: #2a6f4e;
+    border: 20px outset #5a6733;
+    font-size: 20px;
+    
+
+}
+#offerAndPrices{
+    display: flex;
+    justify-content : space-around;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+#servOfrecidos{
+    background-color: #143d63;
+    color: white;
+    margin: 20px;
+    border-radius: 50px;
+}
+
+@media only screen 
+and (min-device-width : 0px) 
+and (max-device-width : 780px) {
+    #header-img{
+    
+        
+        height:35px;
+        width: 40vw;
+    }
+    header{
+        height: 40px;
+    }
+    #img-container{
+        height:  45px;
+    }
+    .test {
+        margin-bottom: 15px;
+    }
+   
+}
